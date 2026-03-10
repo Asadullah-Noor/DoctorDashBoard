@@ -1,10 +1,10 @@
 import React from 'react'
-
+import Index from './Dashboard'
 const App = () => {
   return (
-    <div>
+    <div className='p-5'>
       <div>
-        Asadullah
+        <Index/>
       </div>
     </div>
   )
